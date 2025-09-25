@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(230, 230, 230);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    border-radius: 15px;
+    background-color: rgb(156, 222, 252);
+    width: 25vw;
+    min-width: 300px;
+    max-width: 90%;
+    box-shadow: 4px 5px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.7em;
+    font-weight: 900;
+    border-bottom: 0.5px solid white;
+}
+
+.header .author {
+    font-size: 0.5em;
+    font-weight: 700;       
+    margin-left: 10px;
+    color: rgba(0,0,0,0.6);
+}
+
+.addTask {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    flex: 1;
+    min-width: 150px;
+    font-size: 1em;
+}
+
+button {
+    background-color: rgb(244, 242, 153);
+    color: rgb(11, 11, 11);
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 1em;
+}
+
+button:hover {
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+/* Task list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 7px;
+    background-color: rgba(255,255,255,0.7);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+li.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+li.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .addTask {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input {
+        flex: 1 1 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    li {
+        padding: 10px;
+        font-size: 0.95em;
+    }
+
+    .buttons-container {
+        justify-content: flex-start;
+    }
+}
