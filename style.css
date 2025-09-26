@@ -22,6 +22,7 @@ body {
     gap: 15px;
 }
 
+/* Header */
 .header {
     text-align: center;
     padding: 10px;
@@ -30,13 +31,7 @@ body {
     border-bottom: 0.5px solid white;
 }
 
-.header .author {
-    font-size: 0.5em;
-    font-weight: 700;       
-    margin-left: 10px;
-    color: rgba(0,0,0,0.6);
-}
-
+/* Add task row */
 .addTask {
     display: flex;
     justify-content: space-between;
@@ -110,10 +105,25 @@ li.completed {
 }
 
 
+.signature {
+    text-align: center;
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+
 @media (max-width: 600px) {
     .container {
         width: 90%;
         padding: 15px;
+    }
+
+    .header {
+        font-size: 1.4em;
     }
 
     .addTask {
