@@ -1,6 +1,6 @@
 # TO-DO List App
 
-A simple, responsive, and interactive **To-Do List web application** built with HTML, CSS, and JavaScript. Tasks are persistent using `localStorage`, and the app includes features like marking tasks as complete, deleting tasks, and smooth animations.  
+A simple, responsive, and interactive **To-Do List web application** built with HTML, CSS, and JavaScript. The app includes features like marking tasks as complete, deleting tasks.
 
 **Project by:** **thecodingdhami**
 
