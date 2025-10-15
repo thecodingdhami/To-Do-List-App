@@ -2,20 +2,10 @@
 
 A simple, responsive, and interactive **To-Do List web application** built with HTML, CSS, and JavaScript. The app includes features like marking tasks as complete, deleting tasks.
 
-**Project by:** **thecodingdhami**
+![Made with HTML](https://img.shields.io/badge/HTML5-orange)
+![Made with CSS](https://img.shields.io/badge/CSS3-blue)
+![Made with JS](https://img.shields.io/badge/JavaScript-yellowgreen)
 
----
-
-## Live Demo
-
-Check the working app here: [Click Here](https://thecodingdhami.github.io/To-Do-List-App/) 
-
----
-
-## Screenshots
-
-**Desktop View:**  
-![Screenshot](view.png)
 ---
 
 ## Features
@@ -25,7 +15,21 @@ Check the working app here: [Click Here](https://thecodingdhami.github.io/To-Do-
 - **Mark as Complete / Undo:** Mark tasks as completed, or undo completion. Completed tasks show with a strikethrough and subtle background.  
 - **Persistent Storage:** Tasks are saved in `localStorage`, so they persist even after page refresh.  
 - **Responsive Design:** Works on desktops, tablets, and mobile devices. Input, buttons, and task list adapt for small screens.  
-- **Animations:** Smooth fade-in when adding tasks and fade-out when deleting tasks.  
+- **Animations:** Smooth fade-in when adding tasks and fade-out when deleting tasks.
+  
+---
+
+## Screenshots
+
+**Desktop View:**
+
+![Screenshot](view.png)
+
+---
+
+## Live Demo
+
+Check the working app here: [Click Here](https://thecodingdhami.github.io/To-Do-List-App/)   
 
 ---
 
@@ -109,3 +113,7 @@ todo-list/
 ## License
 
 This project is **open source** and free to use under the [MIT License](LICENSE).
+
+---
+
+**Project by:** **thecodingdhami**
