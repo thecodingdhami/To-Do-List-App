@@ -29,7 +29,7 @@ A simple, responsive, and interactive **To-Do List web application** built with 
 
 ## Live Demo
 
-Check the working app here: [Click Here](https://thecodingdhami.github.io/To-Do-List-App/)   
+Check the working app here: [Click Here](https://dineshsinghdhami.com.np/To-Do-List-App/)   
 
 ---
 
