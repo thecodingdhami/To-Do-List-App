@@ -21,8 +21,6 @@ A simple, responsive, and interactive **To-Do List web application** built with 
 
 ## Screenshots
 
-**Desktop View:**
-
 ![Screenshot](view.png)
 
 ---
