@@ -23,18 +23,6 @@ A simple, responsive, and interactive **To-Do List web application** built with 
 
 ---
 
-## Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/dineshsinghdhami/todo-list.git
-   ```
-
-2. **Open `index.html` in your browser**:
-   - No server is required; the app runs entirely in the browser.
-
----
-
 ## Technologies Used
 
 - **HTML**  
